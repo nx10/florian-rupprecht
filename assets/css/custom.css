@@ -1,3 +1,15 @@
+body {
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+.list-with-title {
+    font-size: 15px;
+}
+
 @media (min-width: 961px) and (max-width: 1920px) {
     .sidebar {
         width: 25%;
@@ -21,7 +33,7 @@
 }
 
 /* More vertical space for lines in post view */
-.post-content > .post-title h3 {
+.post-content>.post-title h3 {
     line-height: normal;
 }
 
