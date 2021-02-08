@@ -1,13 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&display=swap');
 body {
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 p {
-    font-size: 15px;
+    font-size: 1.0rem;
+    font-weight: 400;
 }
 
 .list-with-title {
-    font-size: 15px;
+    font-size: 1.0rem;
+}
+
+.page-top .nav {
+    font-size: 0.9rem;
+}
+
+.page-top .nav a {
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+
+.page-top .nav a.current {
+    padding-bottom: 17px;
+}
+
+.post .post-footer .meta .info {
+    font-size: 0.8rem;
+}
+
+.tag, .category {
+    font-size: 0.9rem;
 }
 
 @media (min-width: 961px) and (max-width: 1920px) {
@@ -30,14 +53,18 @@ p {
 
 .post .post-title h3 {
     text-transform: none;
+    font-weight: 800;
+    font-size: 1.4rem;
 }
 
 /* More vertical space for lines in post view */
+
 .post-content>.post-title h3 {
     line-height: normal;
 }
 
 /* Fix classes missing from dark theme */
+
 html[data-theme='dark'] {
     --chr-nl-color: #e5e5e5;
     --chr-p-color: #e5e5e5;
